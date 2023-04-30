@@ -1,0 +1,110 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--hover-secondary-bg-color);
+  height: 80px;
+  color: var(--main-white-color);
+}
+.logo {
+  align-self: center;
+  margin-inline-start: 2%;
+}
+.logo span {
+  font-size: 22px;
+  font-weight: 500;
+  font-family: var(--secondary-font-family);
+}
+nav {
+  margin-inline-end: 2%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+ul.nav-list li {
+  color: var(--main-white-color);
+}
+ul.nav-list li.active {
+  color: var(--main-color);
+}
+ul.nav-list li a {
+  color: inherit;
+  position: relative;
+  display: inline-block;
+  padding: 8px 4px;
+  margin-inline: 10px;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: var(--main-font-family);
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+}
+
+ul.nav-list li a {
+  /* color: var(--main-color); */
+  color: inherit;
+}
+ul.nav-list li a::after {
+  content: " ";
+  width: 0%;
+  height: 2px;
+  background-color: var(--main-color);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition-property: width;
+  transition-duration: 600ms;
+  transition-timing-function: ease;
+  transition-delay: 0;
+}
+ul.nav-list li a:hover::after {
+  width: 100%;
+}
+ul.nav-list li:last-child a {
+  padding: 8px 10px;
+  margin-inline: 0px;
+  border: 1px solid var(--main-color);
+  color: var(--main-color);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+ul.nav-list li:last-child a:hover::after {
+  width: 0%;
+}
+ul.nav-list li:last-child:hover {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  background-color: var(--hover-bg-color);
+}
+li {
+  list-style-type: none;
+}
+.icon {
+  display: none;
+}
+.toggle {
+  margin: 20px;
+  color: #eee;
+  font-size: 18px;
+  border: 1px solid #eee;
+  padding: 0px 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
