@@ -1,21 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
 import './header.css';
 
 function Header() {
+    let [flag, setFlag] = useState(false)
+    function myFunction() {
+        setFlag(!flag)
+    }
   return (
     <header>
-      <div className="logo" 
+      <div className="logo"
     //   role="text" 
       aria-label="Logo">
         <span>Ayah Dweikat</span>
       </div>
       <nav>
         <div className="icon" 
-        // onClick="myFunction()"
+        // onClick={setFlag(!flag)}
+        onClick = {myFunction}
         >
-          <span id="icon">☰</span>
+          <span id="icon"
+          className={flag? "activeBtn":""}
+          >☰</span>
         </div>
-        <ul className="nav-list" id="nav-list">
+        <ul 
+        className={flag? "nav-list responsive":"nav-list"}
+        id="nav-list">
           <li className="_home active">
             <a className="nav-item" href="#home">
               Home
