@@ -22,7 +22,8 @@ section.about {
     color: var(--main-color);
     font-size: 40px;
     font-weight: 600;
-    margin-block-start: 0px;
+    text-align: left;
+    margin-block-start: 80px;
     margin-block-end: 25px;
     line-height: 50px;
     letter-spacing: 1px;

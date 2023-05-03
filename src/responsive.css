@@ -217,9 +217,10 @@
   }
   /* Contact */
   .contact .container {
-    padding-block: 50px 10px;
+    padding-block: 0px 10px;
     width: 75%;
     margin: auto;
+    margin-top: 80px;
   }
   .contact-sections {
     display: flex;
@@ -328,7 +329,7 @@
     letter-spacing: 1px;
   }
   .project {
-    margin-block: 50px;
+    margin-block: 20px;
     gap: 10px;
     display: flex;
     flex-direction: column;

@@ -9,13 +9,12 @@ function Header() {
   return (
     <header>
       <div className="logo"
-    //   role="text" 
       aria-label="Logo">
         <span>Ayah Dweikat</span>
       </div>
       <nav>
         <div className="icon" 
-        // onClick={setFlag(!flag)}
+        // onClick={() =>setFlag(!flag)}
         onClick = {myFunction}
         >
           <span id="icon"
