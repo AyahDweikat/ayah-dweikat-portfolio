@@ -5,6 +5,7 @@ import Projects from './Components/Projects/Projects';
 import Contact from './Components/Conatct/Contact';
 
 import './responsive.css'
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Projects />
       <Contact />
+      <Footer />
     </div>
   );
 }
