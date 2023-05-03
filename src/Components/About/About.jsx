@@ -20,24 +20,20 @@ function About() {
             My expertise in HTML, CSS, JavaScript and React allows me to build
             modern and dynamic web applications. I am also committed to staying
             up-to-date with the latest technologies and trends in frontend
-            development. You can find my portfolio, as well as links to my
-            <a
+            development. You can find my portfolio, as well as links to my <a
               className="anchors-in-paragraph"
               target="_blank"
               rel="noreferrer"
               href="https://github.com/AyahDweikat"
-            >
-              GitHub
-            </a>
-            and
-            <a
+            > 
+            GitHub
+            </a> and <a
               className="anchors-in-paragraph"
               target="_blank"
               rel="noreferrer"
               href="https://www.linkedin.com/in/ayah-dweikat-1291801bb/"
             >
-              LinkedIn
-            </a>
+              LinkedIn </a>
             profiles, where you can view my projects and connect with me,
             respectively.
           </p>

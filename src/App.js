@@ -1,6 +1,7 @@
 import About from './Components/About/About';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
+import Projects from './Components/Projects/Projects';
 
 import './responsive.css'
 
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Home />
       <About />
+      <Projects />
     </div>
   );
 }
