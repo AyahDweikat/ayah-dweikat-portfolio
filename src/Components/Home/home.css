@@ -1,0 +1,92 @@
+.home {
+    margin-top: -80px;
+    background-image: url("./images/BG-Img-HeroSection.webp");
+    background-color: var(--hover-main-bg-color);
+    background-size: cover;
+    height: 100vh;
+  }
+  section.home {
+    padding-top: 100px;
+  }
+  section .container {
+    width: 80%;
+    margin-inline: auto;
+  }
+  .home .container {
+    display: flex;
+    justify-content: center;
+  }
+  .header-info {
+    padding-top: 80px;
+    text-align: left;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+  .own-img {
+    width: 30%;
+    align-self: center;
+  }
+  .own-img img {
+    height: 100%;
+    width: 300px;
+    max-width: 300px;
+    border: 10px solid var(--border-color);
+    box-shadow: 10px 10px 0px var(--main-color);
+  }
+  .home p {
+    box-sizing: border-box;
+    font-family: var(--secondary-font-family);
+    font-weight: 600;
+    margin-block-start: 20px;
+    line-height: 27.2px;
+    letter-spacing: 0.1px;
+  }
+  .home .top-title {
+    color: var(--main-color);
+    font-size: 40px;
+    margin-block-end: 15px;
+  }
+  .home .desc {
+    color: var(--main-white-color);
+    font-size: 30px;
+    margin-block-end: 0px;
+  }
+  .desc span {
+    color: var(--main-color);
+  }
+  .home .title {
+    color: var(--main-white-color);
+    box-sizing: border-box;
+    font-family: var(--secondary-font-family);
+    font-size: 100px;
+    font-weight: 600;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    line-height: 100px;
+    letter-spacing: 1px;
+    width: 100%;
+  }
+  section a.contact-btn {
+    border: 1px solid var(--main-color);
+    background-color: var(--main-color);
+    color: var(--main-bg-color);
+    display: inline-block;
+    align-self: flex-start;
+    margin-inline-start: 0px;
+    margin-top: 50px;
+    padding: 15px 20px;
+    font-weight: 500;
+    text-decoration: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    background-color: var(--main-color);
+  }
+  section a.contact-btn:hover {
+    background-color: var(--hover-bg-color);
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+  }
