@@ -1,6 +1,4 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCode } from '@fortawesome/free-solid-svg-icons'
 import './about.css';
 
 function About() {
@@ -32,9 +30,8 @@ function About() {
               target="_blank"
               rel="noreferrer"
               href="https://www.linkedin.com/in/ayah-dweikat-1291801bb/"
-            >
-              LinkedIn </a>
-            profiles, where you can view my projects and connect with me,
+            >LinkedIn
+            </a> profiles, where you can view my projects and connect with me,
             respectively.
           </p>
         </article>
@@ -42,39 +39,38 @@ function About() {
           <h2>Skills</h2>
           <ul>
             <li>
-              {/* <i className="fa-brands fa-html5" /> */}
-              <FontAwesomeIcon icon={faCode} />
+              <i className="fa-brands fa-html5" />
               <span>HTML / HTML5</span>
             </li>
             <li>
-              {/* <i className="fa-brands fa-css3" /> */}
+              <i className="fa-brands fa-css3" />
               <span>CSS / CSS3</span>
             </li>
             <li>
-              {/* <i className="fa-brands fa-bootstrap" /> */}
+              <i className="fa-brands fa-bootstrap" />
               <span>Bootstrap</span>
             </li>
             <li>
-              {/* <i className="fa-brands fa-sass" /> */}
+              <i className="fa-brands fa-sass" />
               <span>SASS</span>
             </li>
             <li>
-              {/* <i className="fa-brands fa-js" /> */}
+              <i className="fa-brands fa-js" />
               <span>Javascript</span>
             </li>
             <li>
-              {/* <i className="fa-brands fa-react" /> */}
+              <i className="fa-brands fa-react" />
               <span>React JS</span>
             </li>
             <li>
               <span>Material UI</span>
             </li>
             <li>
-              {/* <i className="fa-brands fa-git" /> */}
+              <i className="fa-brands fa-git" />
               <span>git</span>
             </li>
             <li>
-              {/* <i className="fa-brands fa-github" /> */}
+              <i className="fa-brands fa-github" />
               <span>GitHub</span>
             </li>
             <li>

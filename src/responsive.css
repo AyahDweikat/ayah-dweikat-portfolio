@@ -948,7 +948,7 @@
     width: 16px;
     height: 18px;
     color: hsl(236, 40%, 16%);
-    color: var(--main-color);
+    color: var(--main-white-color);
   }
   .projects .project .project-img {
     width: 100%;
