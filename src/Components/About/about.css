@@ -1,0 +1,78 @@
+section.about {
+    padding-top: 0px;
+    padding-bottom: 60px;
+    height: calc(100vh-80px);
+  }
+  .about-sections {
+    display: flex;
+    gap: 15px;
+    font-family: var(--main-font-family);
+    color: var(--main-white-color);
+  }
+  .about-me {
+    padding: 30px 20px 0px; /**/
+    width: 65%; /**/
+    background-color: var(--secondary-bg-color);
+  }
+  .about h2 {
+    text-align: left;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    font-family: var(--secondary-font-family);
+    color: var(--main-color);
+    font-size: 40px;
+    font-weight: 600;
+    text-align: left;
+    margin-block-start: 80px;
+    margin-block-end: 25px;
+    line-height: 50px;
+    letter-spacing: 1px;
+  }
+  .about-me p,
+  .skills li {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+    margin-block-start: 0px;
+    margin-block-end: 20px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+  }
+  .about-me p {
+    width: 100%;
+  }
+  .about .anchors-in-paragraph {
+    color: var(--main-color);
+    box-sizing: border-box;
+    font-weight: 600;
+  }
+  .skills {
+    width: 35%;
+    background-color: var(--secondary-bg-color);
+    padding: 30px 15px;
+  }
+  .skills ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .skills li {
+    font-size: 13px;
+    line-height: 28px;
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid var(--hover-secondary-bg-color);
+    background: var(--hover-secondary-bg-color);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+  }
+  .skills li span {
+    padding-inline-start: 4px;
+  }
+  .skills li i {
+    color: var(--main-color);
+  }
