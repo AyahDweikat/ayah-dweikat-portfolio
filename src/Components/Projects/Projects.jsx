@@ -1,16 +1,56 @@
 import React from "react";
-import facebookWebsite from './images/facebook-simulation-img.webp' 
-import coffeeWebsite from './images/coffee-website-img.webp' 
-import ECommerce from './images/e-commerce-img.webp' 
-import picShots from './images/pic-shots-img.webp' 
-import './projects.css';
+
+import "./projects.css";
+
+import { projectsData } from "./projectUtils";
 
 function Projects() {
   return (
     <section id="projects" className="projects">
       <div className="container">
         <h2>My Projects</h2>
-        <div className="project">
+        {projectsData.map((project, id) => {
+          return (
+            <div key={id} className="project">
+              <div className="project-info">
+                <h3>{project.title}</h3>
+                <div className="tech-stack">
+                  {project.techStack.map((tech, id)=>{
+                    return (
+                      <span key={id}>{tech}</span>
+                    )
+                  })}
+                </div>
+                <p>
+                  {project.description}
+                </p>
+                <div>
+                  <a
+                    title="GitHub"
+                    target="_blank"
+                    rel="noreferrer"
+                    href={project.gitHubURL}
+                  >
+                    <i className="fa-brands fa-github" />
+                  </a>
+                  <a
+                    title="Demo"
+                    target="_blank"
+                    rel="noreferrer"
+                    href={project.siteURL}
+                  >
+                    <i className="fa-solid fa-arrow-up-right-from-square" />
+                  </a>
+                </div>
+              </div>
+              <div className="project-img">
+                <img src={project.imgSRC} alt="Img for facebook Site" />
+              </div>
+            </div>
+          );
+        })}
+
+        {/* <div className="project">
           <div className="project-info">
             <h3>Facebook Simulation</h3>
             <div className="tech-stack">
@@ -163,8 +203,8 @@ function Projects() {
               display the results getting from API and hide the suggestions.
               <mark>Loved Page</mark> will display the Loved images you have,
               you can see it if you are login to page.
-              <mark>Login Page</mark> you can log in by username "ayah" and
-              password "123"
+              <mark>Login Page</mark> you can log in by username 'ayah' and
+              password '123'
             </p>
             <div>
               <a
@@ -188,7 +228,7 @@ function Projects() {
           <div className="project-img">
             <img src={picShots} alt="Img for a site" />
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
