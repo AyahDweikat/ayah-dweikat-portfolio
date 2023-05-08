@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import './header.css';
 
 function Header() {
-    let [flag, setFlag] = useState(false)
+    let [isLeftNavOpen, setIsLeftNavOpen] = useState(false)
     function myFunction() {
-        setFlag(!flag)
+      setIsLeftNavOpen(!isLeftNavOpen)
     }
   return (
     <header>
@@ -14,15 +14,14 @@ function Header() {
       </div>
       <nav>
         <div className="icon" 
-        // onClick={() =>setFlag(!flag)}
         onClick = {myFunction}
         >
           <span id="icon"
-          className={flag? "activeBtn":""}
+          className={isLeftNavOpen? "activeBtn":""}
           >☰</span>
         </div>
         <ul 
-        className={flag? "nav-list responsive":"nav-list"}
+        className={isLeftNavOpen? "nav-list responsive":"nav-list"}
         id="nav-list">
           <li className="_home active">
             <a className="nav-item" href="#home">
