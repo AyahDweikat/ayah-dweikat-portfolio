@@ -51,10 +51,6 @@
   color: var(--main-white-color);
   background-color: var(--secondary-bg-color);
   border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
 }
 .project-info p mark {
   color: var(--main-color);
@@ -90,17 +86,9 @@
   border: 5px solid var(--secondary-bg-color);
   width: 50%;
   border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
 }
 img {
   border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
   height: 100%;
   width: 100%;
 }

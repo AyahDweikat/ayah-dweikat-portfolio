@@ -65,10 +65,6 @@ section.about {
     border: 1px solid var(--hover-secondary-bg-color);
     background: var(--hover-secondary-bg-color);
     border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -o-border-radius: 4px;
   }
   .skills li span {
     padding-inline-start: 4px;
